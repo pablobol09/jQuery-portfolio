@@ -1,0 +1,11 @@
+/Users/Pablo/.tokaido/Rubies/2.2.2-p95/bin/ruby -r ./siteconf20161120-629-g8g1mu.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.bundle
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.bundle ./.gem.20161120-629-mh7j0g

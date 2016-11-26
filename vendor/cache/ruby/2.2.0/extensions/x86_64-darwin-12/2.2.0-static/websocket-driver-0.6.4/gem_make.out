@@ -1,0 +1,11 @@
+/Users/Pablo/.tokaido/Rubies/2.2.2-p95/bin/ruby -r ./siteconf20161120-629-lrn7aa.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20161120-629-p9rv2w
