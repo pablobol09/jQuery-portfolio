@@ -2,86 +2,333 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
 .navbar 	{
 
-  width: 20.4%;
-  height: 50px;    
+  width: 60%;   
+  padding-left: 5%;
   float: left;
-  padding-left: 40%;    
-   
-  
-  
+  margin-bottom: 0%;
+  padding-top: 2.5%;
+  margin-left: 5%;
+ 
   
 }
 
 
-
 .navbar li	{
-  border: 1px solid black;
-  background-color: black;
-  opacity:.5;
-  color: white;
+  border: 1px solid white;
+  background-color: white;
+  opacity: .75;
+  color: black;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: roboto, sans-serif;
   border-radius: 5px;
   display: inline-block;
+  height: 50%;
+  margin-left: 10%;
+  
       
 }
 
 .name   {
-    text-align: center;
-    width: 10.2%;
-    height: 50px;
     float: right;
-    position: relative;
+    text-align: center;
+    width: 15%;
     padding-right: 2%;
-    
-    
-
-    
+    margin-top: 2%;
+    display: none;
     
 }
 
 .name  h4	{
  
   color: black;    
-  position: absolute;
-  
-       
-  
 }
 
 
-.tagline h1	{
-  font-weight: bold;
-  color: white;
-  text-align: center;
-}
 
-.btn	p	{
-  border: 1px solid purple;
-  border-radius: 5px;
-  background-color: grey;
-  width: 10%;
-  text-align: center;
-}
 
 .sandy  {
-  background-image: url(https://imageshack.com/i/pmRKu9xkj);
-  width: 1180px;
-  height: 650px;
-  margin: 10px auto;
-  padding-left: 40px;
+  
+  height: 515px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 3%;
+  background-image: url(https://photos-4.dropbox.com/t/2/AACdZvjSmEhBf1sEPyu55Xuqp49SYzQfE_fSL5nJkVoG0A/12/61905955/jpeg/32x32/1/_/1/2/madmenherom.jpg/EJTjv4EFGCQgBygH/pDHBp_-L-JM7a7BtOyi3RRGQ5yWkrj8VYqLm02lWEpw?size=2048x1536&size_mode=3);
+  background-position: left top;
+
+
+
+
+
   
 }
+
+.sandy .tagline h1 {
+  color: white;
+  font-weight: bold;
+  visibility: visible;
+  margin-left: 40%;
+  width: 65%;
+  float: right;
+}
+
+.sandy .tagline {
+  
+  padding-top: 13%;
+  visibility: hidden;
+
+  
+}
+
+
+
+
+/* I MAKE APPS */
+
+.lang {
+  width: 20%;
+  height: 515px;
+  display: inline-block;
+}
+
+
+.sandy #i{
+  
+
+}
+
+.sandy #e {
+  
+
+}
+
+
+.sandy:hover #i {
+  color: goldenrod;
+  visibility: visible;
+  font-size: 20px;
+  
+}
+
+.sandy:hover #m {
+  color: goldenrod;
+  visibility: visible;
+}
+
+.sandy:hover #a {
+  color: goldenrod;
+  visibility: visible;
+}
+
+.sandy:hover #k {
+  color: goldenrod;
+  visibility: visible;
+}
+
+.sandy:hover #e {
+  color: goldenrod;
+  visibility: visible;
+}
+
+.sandy:hover #a {
+  color: goldenrod;
+  visibility: visible;
+}
+
+.sandy:hover #p {
+  color: goldenrod;
+  visibility: visible;
+}
+
+.sandy:hover #pp {
+  color: goldenrod;
+  visibility: visible;
+}
+
+.sandy:hover #s {
+  color: goldenrod;
+  visibility: visible;
+}
+
+
+
+.navbar:hover #i {
+  color: goldenrod;
+  visibility: visible;
+}
+
+
+
+
+
+
+
+
+
+.btn  {
+ 
+ margin-left: 87%;
+}
+
+
+.btn	p	{
+  border: 1px solid grey;
+  border-radius: 5px;
+  background-color: grey;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  width: 130%;
+  display: none;
+
+}
+
 
 .footer {
 
-  width: 160px;
-  margin: auto;
+  width: 100px;
+  margin-left: 76%;
+  margin-bottom: 1.5%;
 }
 
 
 .footer a	img {
-  width: 50px;
-  height: 50px;
-  float: center;    
+  width: 25px;
+  height: 25px;
+
+      
 }
+
+
+.copyright  {
+  margin-left: 75%;
+  margin-bottom: 3%;
+}
+
+/* PORTFOLIO PAGE */
+
+.portfoliopic  {
+  background-image: url(https://photos-2.dropbox.com/t/2/AAAz6F21F7PRiUWtSPNvV1FAIFYou57Iy6Et0zGThxlkYA/12/61905955/jpeg/32x32/1/_/1/2/vintage-computerm.jpg/EJTjv4EFGB4gBygH/YiMWbs6JgThHJ1VhNvuMnr7iqJm9GXUhEHoxFMr0LG0?size=2048x1536&size_mode=3);
+  height: 515px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 3%;
+  margin-bottom: 5%;
+ 
+}
+
+/* grid one */
+
+.apps1  {
+  margin: auto;
+  width: 1000px;
+
+}
+
+
+
+.apps1 li {
+  display: inline-block;
+
+}
+
+.apps1 #first {
+  margin-right: 3%;
+}
+
+
+.des1 {
+  margin-left: 15%;
+  width: 1000px;
+  list-style-type: none;
+  margin-right: 3%;
+  
+}
+
+.des1 li  {
+  display: inline-block;
+}
+
+#des1 {
+  margin-right: 18%;
+}
+
+
+.des2 {
+  margin-left: 15%;
+  width: 1000px;
+  list-style-type: none;
+  margin-right: 3%;
+  
+}
+
+.des2 li  {
+  display: inline-block;
+}
+
+#des3 {
+  margin-right: 18%;
+}
+
+/* grid two */
+
+.apps2  {
+  margin: auto;
+  width: 1000px;
+  margin-top: 2%;
+}
+
+.apps2 li {
+  display: inline-block;
+}
+
+.apps2 #third {
+  margin-right: 3%;
+}
+
+
+.footerport {
+  width: 100px;
+  margin-left: 76%;
+  margin-top: 10%;
+  margin-bottom: 1.5%;
+}
+
+
+.footerport a img {
+  width: 25px;
+  height: 25px;
+
+      
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
