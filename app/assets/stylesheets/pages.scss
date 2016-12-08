@@ -32,25 +32,7 @@
       
 }
 
-.name   {
-    float: right;
-    text-align: center;
-    width: 15%;
-    padding-right: 2%;
-    margin-top: 2%;
-    display: none;
-    
-}
-
-.name  h4	{
- 
-  color: black;    
-}
-
-
-
-
-.sandy  {
+.madmen  {
   
   height: 515px;
   background-repeat: no-repeat;
@@ -59,132 +41,53 @@
   background-image: url(https://photos-4.dropbox.com/t/2/AACdZvjSmEhBf1sEPyu55Xuqp49SYzQfE_fSL5nJkVoG0A/12/61905955/jpeg/32x32/1/_/1/2/madmenherom.jpg/EJTjv4EFGCQgBygH/pDHBp_-L-JM7a7BtOyi3RRGQ5yWkrj8VYqLm02lWEpw?size=2048x1536&size_mode=3);
   background-position: left top;
 
-
-
-
-
-  
 }
 
-.sandy .tagline h1 {
+
+
+.tline {
   color: white;
   font-weight: bold;
   visibility: visible;
   margin-left: 40%;
   width: 65%;
+  display: inline-block;
   float: right;
+  position: relative;
+  padding-top: 15%;
+  padding-left: 12%;
 }
 
-.sandy .tagline {
-  
-  padding-top: 13%;
-  visibility: hidden;
-
-  
-}
-
-
-
-
-/* I MAKE APPS */
 
 .lang {
-  width: 20%;
-  height: 515px;
+  width: 14%;
+  height: 81%;
   display: inline-block;
+  float: left;
+  position: absolute;
+  padding-left: 2%;
+  font-size: 23px;
+  border: 1px solid rgba(255,255,255, 0.3);
+  background: rgba(255,255,255, 0.3);
+  visibility: hidden;
 }
 
-
-.sandy #i{
-  
-
-}
-
-.sandy #e {
-  
-
-}
-
-
-.sandy:hover #i {
-  color: goldenrod;
-  visibility: visible;
-  font-size: 20px;
-  
-}
-
-.sandy:hover #m {
-  color: goldenrod;
-  visibility: visible;
-}
-
-.sandy:hover #a {
-  color: goldenrod;
-  visibility: visible;
-}
-
-.sandy:hover #k {
-  color: goldenrod;
-  visibility: visible;
-}
-
-.sandy:hover #e {
-  color: goldenrod;
-  visibility: visible;
-}
-
-.sandy:hover #a {
-  color: goldenrod;
-  visibility: visible;
-}
-
-.sandy:hover #p {
-  color: goldenrod;
-  visibility: visible;
-}
-
-.sandy:hover #pp {
-  color: goldenrod;
-  visibility: visible;
-}
-
-.sandy:hover #s {
-  color: goldenrod;
+.madmen:hover .lang {
+  width: 14%;
+  height: 81%;
+  display: inline-block;
+  float: left;
+  position: absolute;
+  padding-left: 2%;
+  font-size: 23px;
+  border: 1px solid rgba(255,255,255, 0.3);
+  background: rgba(255,255,255, 0.3);
+  color: #FFDF00;
   visibility: visible;
 }
 
 
-
-.navbar:hover #i {
-  color: goldenrod;
-  visibility: visible;
-}
-
-
-
-
-
-
-
-
-
-.btn  {
- 
- margin-left: 87%;
-}
-
-
-.btn	p	{
-  border: 1px solid grey;
-  border-radius: 5px;
-  background-color: grey;
-  text-align: center;
-  font-weight: bold;
-  color: white;
-  width: 130%;
-  display: none;
-
-}
+/* FOOTER */
 
 
 .footer {
@@ -202,11 +105,12 @@
       
 }
 
-
 .copyright  {
   margin-left: 75%;
   margin-bottom: 3%;
 }
+
+
 
 /* PORTFOLIO PAGE */
 
