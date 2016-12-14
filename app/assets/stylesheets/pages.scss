@@ -74,7 +74,7 @@
 
 .madmen:hover .lang {
   width: 14%;
-  height: 81%;
+  height: 87%;
   display: inline-block;
   float: left;
   position: absolute;
@@ -211,18 +211,102 @@
 
 
 
+/* About Page */
 
 
 
+.aboutpic  {
+
+  background-image: url(https://photos-3.dropbox.com/t/2/AAD1-0RnUdi_VzAo0kTyD82MdvH-EP3bmf544yW8K80gTw/12/61905955/png/32x32/1/_/1/2/black.png/EJTjv4EFGCcgBygH/mUwBw4fSeQ-vAEvPXvMZ2bLvVBjLRche9r1D4cphOAc?size=2048x1536&size_mode=3);
+  height: 515px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  position: relative;
+ 
+}
 
 
 
+.aboutdes {
+  color: white;
+  height: 515px;
+  width: 20%;
+  display: inline-block;
+  float: left;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 1%;
+  font-family: "Montserrat";
+  font-size: 13px;
+  word-spacing: 4px;
+ 
+  
+}
+
+
+.aboutpic img {
+  height: 515px;
+  background-size: contain;
+  background-position: center;
+  box-shadow: 0 0 25px 1px rgba(0,0,0,.25);
+  border-radius: 20px;
+
+}
+
+.aboutfooterport {
+  width: 100px;
+  margin-left: 76%;
+  margin-top: 1%;
+  margin-bottom: 1.5%;
+}
+
+
+.aboutfooterport a img {
+  width: 25px;
+  height: 25px;
+
+}
 
 
 
+.navbar li a {
+  color: black;
+}
 
 
+/* Contact Page */
 
+.contactpic  {
+  
+  height: 515px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 3%;
+  background-color: white;
+  padding-top: 12%;
+  padding-left: 10%;
+  border: 4px solid black;
+
+}
+
+.contactpic a img {
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+  margin-right: 10%;
+}
+
+
+.contactpic #first, #second {
+  margin-top: -7%;
+  display: inline-block;
+}
+
+.contactpic #first {
+  margin-right: 40%;
+}
 
 
 
