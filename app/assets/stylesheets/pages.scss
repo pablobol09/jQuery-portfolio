@@ -146,12 +146,15 @@
 }
 
 
-.aboutpic img {
+#aboutpicinside {
   height: 515px;
+  width: 773px;
+  background: image-url("portfolioabout.jpg");
   background-size: contain;
   background-position: center;
   box-shadow: 0 0 25px 1px rgba(0,0,0,.25);
   border-radius: 20px;
+  display: inline-block;
 
 }
 
@@ -207,7 +210,31 @@
 
 .apps1 #first {
   margin-right: 3%;
+  width: 420px;
+  height: 280px;
+  background: image-url("innovationcloud.jpg");
+
 }
+
+.apps1 #first a img {
+  
+  opacity: 0.0;
+
+}
+
+.apps1 #second {
+  width: 420px;
+  height: 280px;
+  background: image-url("createandsharestories.jpg");
+
+}
+
+.apps1 #second a img {
+  
+  opacity: 0.0;
+
+}
+
 
 
 .des1 {
@@ -257,6 +284,27 @@
 
 .apps2 #third {
   margin-right: 3%;
+  width: 420px;
+  height: 280px;
+  background: image-url("wearebroadway.jpg");
+}
+
+.apps2 #third a img {
+  
+  opacity: 0.0;
+
+}
+
+.apps2 #fourth {
+  width: 420px;
+  height: 280px;
+  background: image-url("favoritemovies.jpg");
+}
+
+.apps2 #fourth a img {
+  
+  opacity: 0.0;
+
 }
 
 

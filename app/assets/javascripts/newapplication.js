@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).on('turbolinks:load',function(){
 	$('img').hover(
 		function() {
 			$(this).addClass('active');
